@@ -137,6 +137,7 @@ items:
     creationTimestamp: "2022-12-01T20:57:07Z"
     labels:
       otra: etiqueta
+      nueva: prueba
       version: v1
       zone: prod
     name: nginx
