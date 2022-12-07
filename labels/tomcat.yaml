@@ -4,7 +4,7 @@ metadata:
   name: tomcat
   labels:
     estado: "desarrollo"
-    responsable: "juan"
+    responsable: "Allan"
 spec:
   containers:
    - name: tomcat     
