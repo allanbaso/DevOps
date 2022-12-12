@@ -6,6 +6,8 @@ d = {
     'Bob': 75,
     'Tracy': 85
 }
+d['Allan'] = '34'
+print(d)
 print('d[\'Michael\'] =', d['Michael'])
 print('d[\'Bob\'] =', d['Bob'])
 print('d[\'Tracy\'] =', d['Tracy'])
