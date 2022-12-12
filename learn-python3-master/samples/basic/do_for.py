@@ -5,4 +5,4 @@ for name in names:
     print(name)
 
 for x in range(10):
-    print("Los numeros de ciclo son: "x+1)
+    print("Los numeros de ciclo son: ",x+1)
