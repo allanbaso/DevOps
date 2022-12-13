@@ -8,7 +8,7 @@
 #CREATE USER 'allan'@'%' IDENTIFIED BY 'allan1';
 
 #GRANT ALL PRIVILEGES ON test_db.* to 'allan'@'%';
-
+#revisar siempre W3schools codigo mas sencillo y conciso.
 
 import mysql.connector
 
