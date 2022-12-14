@@ -38,8 +38,16 @@ val = [
   ('Chuck', 'Main Road 989'),
   ('Viola', 'Sideway 1633')
 ]
-mycursor.executemany(sql, val)
 
-mydb.commit()
+try:
+    mycursor.executemany(sql, val)
+    mydb.commit()
+    print(mycursor.rowcount, "registros fueron insertados...")
+    # ... YOUR CODE HERE ... #
+except Exception as e:
+    # ... PRINT THE ERROR MESSAGE ... #
+    if e != "":
+        print("No se permiten registros duplicados...")
 
-print(mycursor.rowcount, "fueron insertados...")
+
+
