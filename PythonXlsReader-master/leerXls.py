@@ -10,10 +10,13 @@ if "HOLDPROD" in new_list:
     #print("El nombre del elmento #"+str(rx+1)+" de la lista es : "+str(new_list))
     if "H" in new_list:
         print('Listas para borrar Libman2 con stage 2')
+        #se agrega cod para borrar con stage H
     else:
         print('Lista para borrar en Libman2')
+        #se agrega cod para borrar en lib2
 if "PROD" in new_list:
     if "H" in new_list:
         print('No existe stage H en Libman1')
     else:
         print('Lista para borrar en Libman1')
+        #se agrega cod para borrar en lib1
