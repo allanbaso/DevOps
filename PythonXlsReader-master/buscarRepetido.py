@@ -15,22 +15,11 @@ for col in range(sh.ncols):
             #print("El nombre del elmento #"+str(rx+1)+" de la lista es : "+str(new_list))
             if "H" in new_list:
                 conSH+=1/sh.ncols
-                #print('Listas para borrar Libman2 con stage 2')
-                #break
-                #se agrega cod para borrar con stage H
             else:
                 contLib2+=1/sh.ncols
-                #print('Lista para borrar en Libman2')
-                #break
-                #se agrega cod para borrar en lib2
         if "PROD" in new_list:
             if "H" in new_list:
                 contnulo+=1/sh.ncols
-                #print('No existe stage H en Libman1')
-                #break
-                #print('Lista para borrar en Libman1')
-                #break
-                #se agrega cod para borrar en lib1
             else:
                 contLib1+=1/sh.ncols
 
