@@ -26,4 +26,4 @@ for col in range(sh.ncols):
 print('Se encontraron {0} de elementos para borrar con stage H libman2'.format(round(conSH)))
 print('Se encontraron {0} de elementos para borrar libman2'.format(round(contLib2)))
 print('Se encontraron {0} de elementos para borrar libman1'.format(round(contLib1)))
-print('Se encontraron {0} de elementos que coinciden con el sistema y stage'.format(round(contnulo)))
+print('Se encontraron {0} de elementos que coinciden con el sistema y stage'.format(round(contnulo)))    
