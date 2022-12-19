@@ -2,7 +2,7 @@ import xlrd
 #import sys, datetime
 #from tabulate import tabulate
 
-book = xlrd.open_workbook("Book3.xls")
+book = xlrd.open_workbook("Book4.xls")
 print("The number of worksheets is {0}".format(book.nsheets))
 print("Worksheet name(s): {0}".format(book.sheet_names()))
 
@@ -23,9 +23,9 @@ listaRepetida=[]
 for rx in range(sh.nrows):
     fila = sh.row_values(rx)
     new_list = [word.strip() for word in fila]#se le quita los espacios y caracteres demas
-    if (BuscarRepetido(new_list,rx+1) and rx<sh.nrows):
+    if (BuscarRepetido(new_list,rx+1)):
         listaRepetida.append(new_list)
 for a in listaRepetida:
-    print("La filas repetida de la hoja de excel es:{0}".format(a))
+    print("La fila repetida de la hoja de excel es:{0}".format(a))
     
 #print("El nombre del elmento #"+str(rx+1)+" de la lista es : "+str(new_list))
