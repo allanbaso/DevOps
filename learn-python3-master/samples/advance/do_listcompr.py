@@ -8,5 +8,6 @@ print([m + n for m in 'ABC' for n in 'XYZ'])
 d = {'x': 'A', 'y': 'B', 'z': 'C' }
 print([k + '=' + v for k, v in d.items()])
 
-L = ['Hello', 'World', 'IBM', 'Apple']
+L = ['Hello', 'World', 'IBM', 'Apple','PALABRA']
 print([s.lower() for s in L])
+print([s.upper() for s in L])
